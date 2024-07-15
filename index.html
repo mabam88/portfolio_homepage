@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio_Webpage</title>
+    <!-- BootsrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Font Styler -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+    <!-- AnimateCss -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- --------------------------------------------- -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fs-2 fw-bold" href="#">Machfod</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active fw-semibold" aria-current="page" href="#home">Home</a>
+            <a class="nav-link active fw-semibold" href="#about">About</a>
+            <a class="nav-link active fw-semibold" href="#work">Work</a>
+            <a class="nav-link active fw-semibold" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Start -->
+    <section id="home" class="home container">
+      <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+        <div class="col-12 col-md-8">
+          <h3 class="fw-semibold">Hi! I am</h3>
+          <h1 class="fw-bold">Machfod</h1>
+          <p>I am Web Developer Based in Indonesia</p>
+          <a class="btn button" href="images/poto.jpg" download>Resume</a>
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
+          <img src="images/poto.png" class="rounded-circle img-thumbnail poto" alt="poto" />
+        </div>
+      </div>
+      <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
+        <span>More Info</span>
+        <a class="text-decoration-none text-dark" href="#about">
+          <img id="arrow" class="animate__animated animate__shakeY animate__slower animate__infinite animate__delay-2s mt-2" src="images/arrow.svg" alt="arrow icon" />
+        </a>
+      </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- About Start -->
+    <section id="about" class="about container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero laboriosam debitis inventore excepturi dolor corporis ducimus numquam, vitae temporibus autem nulla tenetur reprehenderit quasi soluta neque nemo? Ad unde voluptatem
+        corrupti rerum officiis eius similique perspiciatis dolorem ex. Expedita ad libero ut aliquid voluptate rem deleniti hic doloribus quasi!
+      </p>
+      <div class="about-exp">
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5 class="fw-semibold">Web Developer</h5>
+              <p class="fw-semibold">Frelancer (2022-Now)</p>
+            </div>
+            <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+          </div>
+          <p class="about-exp-item-detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.
+          </p>
+        </div>
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5 class="fw-semibold">Web Styling</h5>
+              <p class="fw-semibold">Frelancer (2022-Now)</p>
+            </div>
+            <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+          </div>
+          <p class="about-exp-item-detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.
+          </p>
+        </div>
+        <div class="about-exp-item">
+          <div class="about-exp-item-header">
+            <div>
+              <h5 class="fw-semibold">Software Engineer</h5>
+              <p class="fw-semibold">Frelancer (2024)</p>
+            </div>
+            <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+          </div>
+          <p class="about-exp-item-detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quisquam, rerum nisi laborum labore est dolores neque fuga esse commodi nam quia atque aut dolorum! Culpa reprehenderit quo voluptates laboriosam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Work Start -->
+    <section id="work" class="work container">
+      <div class="row d-flex align-items-center gap-5">
+        <div class="col-12 col-md-5">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione at aspernatur, similique repellendus cum obcaecati necessitatibus, ullam odio minima iure minus inventore, nobis hic dolorum sed. Debitis voluptas quo, veniam
+            repellat est odit assumenda, ea beatae facilis aliquam maxime ab magnam. Provident iste esse officiis deserunt laborum repellendus, architecto placeat?
+          </p>
+        </div>
+        <div class="col-12 col-md-6 work-img">
+          <div id="work-1" class="work-img-item">
+            <img src="images/work-1.png" alt="work 1" />
+          </div>
+          <div id="work-2" class="work-img-item">
+            <img src="images/work-2.png" alt="work 2" />
+          </div>
+          <div id="work-3" class="work-img-item">
+            <img src="images/work-3.png" alt="work 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="contact container">
+      <div class="row d-flex align-items-center gap-5">
+        <div class="col-12 col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam saepe optio, fugit fuga laudantium, minus magnam deleniti cumque illo tempora tempore facilis aliquam modi quisquam dicta assumenda animi eligendi sunt.
+            Cumque perferendis natus, consectetur accusantium, eius blanditiis quas, delectus atque cum commodi molestiae! Cupiditate quod vitae ab molestias! Impedit!
+          </p>
+          <div class="row">
+            <div class="col d-flex align-items-center">
+              <img src="images/Facebook.svg" alt="facebook icon" />
+              <p>Machfod</p>
+            </div>
+            <div class="col d-flex align-items-center">
+              <img src="images/Instagram.svg" alt="instagram icon" />
+              <p>@machfod</p>
+            </div>
+            <div class="col d-flex align-items-center">
+              <img src="images/Twitter.svg" alt="twitter icon" />
+              <p>@machfod</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5">
+          <form class="contact-form" onsubmit="onFormSubmit(event)">
+            <div class="mb-3">
+              <label for="inp_email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="inp_email" placeholder="example@email.com" required />
+            </div>
+            <div class="mb-3">
+              <label for="inp_subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required />
+            </div>
+            <div class="mb-3">
+              <label for="inp_message" class="form-label">Message</label>
+              <input type="text" class="form-control" id="inp_message" placeholder="Your Message" required />
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <button type="submit" class="btn button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact End -->
+    <footer class="text-center text-body-secondary pb-1 pt-1 border-top">Machfod_Portofolio &copy; 2024</footer>
+    <!-- Footer Start -->
+
+    <!-- Footer End -->
+
+    <!-- Bootsrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Jquery Cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- My Javascript -->
+    <script src="main.js"></script>
+  </body>
+</html>
